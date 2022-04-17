@@ -53,11 +53,11 @@ jobs:
           plugin_lines: yes
           plugin_notable: yes
           plugin_notable_from: organization
-          plugin_people: yes
-          plugin_people_limit: 24
-          plugin_people_shuffle: yes
-          plugin_people_size: 28
-          plugin_people_types: followers, following
+#           plugin_people: yes
+#           plugin_people_limit: 24
+#           plugin_people_shuffle: yes
+#           plugin_people_size: 28
+#           plugin_people_types: followers, following
           plugin_reactions: yes
           plugin_reactions_display: absolute
           plugin_reactions_ignored:
@@ -75,7 +75,7 @@ jobs:
           plugin_topics_limit: 15
           plugin_topics_mode: starred
           plugin_topics_sort: stars
-          plugin_traffic: yes
+#           plugin_traffic: yes
 #           plugin_tweets: yes
 #           plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
 #           plugin_tweets_attachments: yes
